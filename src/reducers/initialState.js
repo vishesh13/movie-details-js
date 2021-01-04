@@ -1,7 +1,9 @@
 export default {
-    oneState: {
+    movieDetailsState: {
+        details: [],
+        info: '',
+        openModal: false,
         isLoading: false,
-        isFailed: false,
-        shouldChange: false,
+        isFailed: false
     },
 };
