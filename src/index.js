@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import OneApplication from './startup/OneApplication';
+import MoviesApplication from './startup/MoviesApplication';
 import './index.css';
 
 ReactDOM.render(
-  <OneApplication />,
+  <MoviesApplication />,
   document.getElementById('root')
 );
